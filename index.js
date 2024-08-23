@@ -5,8 +5,16 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
+server.use(
+  jsonServer.rewriter({
+    "/*": "/$1",
+  })
+);
+
 server.use(router);
 
-server.listen(5000, () => {
+server.listen(3000, () => {
   console.log("JSON Server is running");
 });
+
+module.exports = server;
