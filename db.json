@@ -582,7 +582,8 @@
       "password": "123456",
       "role": "admin",
       "wishList": [],
-      "cart": []
+      "cart": [],
+      "username": "admin123456"
     },
     {
       "id": "a7562",
@@ -602,7 +603,249 @@
       "id": "b676",
       "username": "marwa2001",
       "email": "marwa2001@gmail.com",
-      "password": "2001"
+      "password": "2001",
+      "products": [
+        {
+          "id": "5",
+          "title": "Python for Data Analysis",
+          "description": "Dive deeper into Python programming with a focus on data analysis and manipulation.",
+          "duration": "5 weeks",
+          "hours": 50,
+          "level": "Intermediate",
+          "instructor": {
+            "id": 2,
+            "name": "Emily White",
+            "email": "emilywhite@example.com",
+            "bio": "Emily is a data scientist with expertise in Python for data analysis. She has worked with Fortune 500 companies on large-scale data projects."
+          },
+          "topics": [
+            "Data Wrangling",
+            "Data Visualization",
+            "Data Analysis with Pandas",
+            "Statistics with Python"
+          ],
+          "category": "Programming",
+          "numberOfStudents": 850,
+          "image": "https://t3.ftcdn.net/jpg/03/86/83/28/360_F_386832865_KzXYSvOLzUhztbeVD5d6pi2MBMqwBGAL.jpg",
+          "date": "2024-08-25",
+          "videos": [
+            {
+              "title": "JavaScript Fundamentals",
+              "url": "https://example.com/js-fundamentals.mp4",
+              "duration": "16:00"
+            },
+            {
+              "title": "Node.js and Express",
+              "url": "https://example.com/node-express.mp4",
+              "duration": "18:00"
+            },
+            {
+              "title": "Database Management with MongoDB",
+              "url": "https://example.com/mongodb-management.mp4",
+              "duration": "20:00"
+            },
+            {
+              "title": "Building RESTful APIs",
+              "url": "https://example.com/restful-apis.mp4",
+              "duration": "17:00"
+            },
+            {
+              "title": "Deploying Node.js Applications",
+              "url": "https://example.com/deploying-nodejs.mp4",
+              "duration": "19:00"
+            },
+            {
+              "title": "Testing and Debugging",
+              "url": "https://example.com/testing-debugging.mp4",
+              "duration": "15:00"
+            }
+          ],
+          "rating": 4.7,
+          "price": 129.99
+        },
+        {
+          "id": "1",
+          "title": "Introduction to Python",
+          "description": "Learn the basics of Python programming, including syntax, data types, and functions.",
+          "duration": "4 weeks",
+          "hours": 40,
+          "level": "Beginner",
+          "instructor": {
+            "id": 1,
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "bio": "John is a seasoned Python developer with over 10 years of experience. He has taught programming at various universities and authored several books on Python."
+          },
+          "topics": [
+            "Variables and Data Types",
+            "Control Flow",
+            "Functions",
+            "Working with Files"
+          ],
+          "category": "Programming",
+          "numberOfStudents": 1200,
+          "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010128.jpg",
+          "date": "2024-08-28",
+          "videos": [
+            {
+              "title": "JavaScript Fundamentals",
+              "url": "https://example.com/js-fundamentals.mp4",
+              "duration": "16:00"
+            },
+            {
+              "title": "Node.js and Express",
+              "url": "https://example.com/node-express.mp4",
+              "duration": "18:00"
+            },
+            {
+              "title": "Database Management with MongoDB",
+              "url": "https://example.com/mongodb-management.mp4",
+              "duration": "20:00"
+            },
+            {
+              "title": "Building RESTful APIs",
+              "url": "https://example.com/restful-apis.mp4",
+              "duration": "17:00"
+            },
+            {
+              "title": "Deploying Node.js Applications",
+              "url": "https://example.com/deploying-nodejs.mp4",
+              "duration": "19:00"
+            },
+            {
+              "title": "Testing and Debugging",
+              "url": "https://example.com/testing-debugging.mp4",
+              "duration": "15:00"
+            }
+          ],
+          "rating": 4.5,
+          "price": 99.99
+        },
+        {
+          "id": "7",
+          "title": "Introduction to Machine Learning",
+          "description": "Get started with machine learning and build predictive models using Python.",
+          "duration": "10 weeks",
+          "hours": 100,
+          "level": "Beginner",
+          "instructor": {
+            "id": 6,
+            "name": "Laura Green",
+            "email": "lauragreen@example.com",
+            "bio": "Laura is an AI expert with a focus on machine learning and deep learning. She has a PhD in computer science and has published multiple papers on AI."
+          },
+          "topics": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Model Evaluation",
+            "Neural Networks"
+          ],
+          "category": "Data Science",
+          "numberOfStudents": 720,
+          "image": "https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2023/06/python-coding-graphic.jpeg.jpg",
+          "date": "2024-08-28",
+          "videos": [
+            {
+              "title": "JavaScript Fundamentals",
+              "url": "https://example.com/js-fundamentals.mp4",
+              "duration": "16:00"
+            },
+            {
+              "title": "Node.js and Express",
+              "url": "https://example.com/node-express.mp4",
+              "duration": "18:00"
+            },
+            {
+              "title": "Database Management with MongoDB",
+              "url": "https://example.com/mongodb-management.mp4",
+              "duration": "20:00"
+            },
+            {
+              "title": "Building RESTful APIs",
+              "url": "https://example.com/restful-apis.mp4",
+              "duration": "17:00"
+            },
+            {
+              "title": "Deploying Node.js Applications",
+              "url": "https://example.com/deploying-nodejs.mp4",
+              "duration": "19:00"
+            },
+            {
+              "title": "Testing and Debugging",
+              "url": "https://example.com/testing-debugging.mp4",
+              "duration": "15:00"
+            }
+          ],
+          "rating": 4.4,
+          "price": 109.99
+        },
+        {
+          "id": "4",
+          "title": "Introduction to Machine Learning",
+          "description": "Get started with machine learning and build predictive models using Python.",
+          "duration": "10 weeks",
+          "hours": 100,
+          "level": "Beginner",
+          "instructor": {
+            "id": 6,
+            "name": "Laura Green",
+            "email": "lauragreen@example.com",
+            "bio": "Laura is an AI expert with a focus on machine learning and deep learning. She has a PhD in computer science and has published multiple papers on AI."
+          },
+          "topics": [
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Model Evaluation",
+            "Neural Networks"
+          ],
+          "category": "Data Science",
+          "numberOfStudents": 720,
+          "image": "https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2023/06/python-coding-graphic.jpeg.jpg",
+          "date": "2024-08-25",
+          "videos": [
+            {
+              "title": "JavaScript Fundamentals",
+              "url": "https://example.com/js-fundamentals.mp4",
+              "duration": "16:00"
+            },
+            {
+              "title": "Node.js and Express",
+              "url": "https://example.com/node-express.mp4",
+              "duration": "18:00"
+            },
+            {
+              "title": "Database Management with MongoDB",
+              "url": "https://example.com/mongodb-management.mp4",
+              "duration": "20:00"
+            },
+            {
+              "title": "Building RESTful APIs",
+              "url": "https://example.com/restful-apis.mp4",
+              "duration": "17:00"
+            },
+            {
+              "title": "Deploying Node.js Applications",
+              "url": "https://example.com/deploying-nodejs.mp4",
+              "duration": "19:00"
+            },
+            {
+              "title": "Testing and Debugging",
+              "url": "https://example.com/testing-debugging.mp4",
+              "duration": "15:00"
+            }
+          ],
+          "rating": 4.4,
+          "price": 109.99
+        }
+      ],
+      "cardDetails": {
+        "cardNumber": "2424242424242424",
+        "expiryDate": "02/24",
+        "cvv": "123",
+        "cardHolderName": "visa"
+      },
+      "phone": "01224384697",
+      "address": "alex"
     },
     {
       "id": "eb7c",
